@@ -58,11 +58,9 @@ function App() {
 }
 
 function Header() {
-	// const style = { color: 'red', fontSize: '48px', textTransform: 'uppercase' };
-	const style = {};
 	return (
 		<header className="header">
-			<h1 style={style}>Yummy Pizza Co.</h1>
+			<h1>Yummy Pizza Co.</h1>
 		</header>
 	);
 }
